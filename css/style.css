@@ -1,10 +1,30 @@
-/* nav { 
-    border: 1px solid red;
-    padding: 35px 20px;  
+.squarebox {
+    max-width: 600px;
+    min-height: 600px;
+    border: 1px solid black;
+    background: rgb(87, 176, 175);
 }
-footer {
-    border: 1px solid red;
-    padding: 65px 20px;
-}   
- */
+.smaller-box {
+    max-width: 450px;
+    max-height: 500px;
+    border:1px solid red;
+    margin-top: 50px;
+    
+}
+ .navbar {
+    padding: 15px;
+    border: 3px solid black;
+ }
+ .bg-image {
+   margin-top: 30px;
+   
+ }
 
+ input[type= "email"]{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+input[type= "password"]{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
