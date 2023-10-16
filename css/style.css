@@ -5,11 +5,10 @@ nav{
     color: beige;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     
 }
-.navbar-nav  {
-    
-}
+
 .squarebox {
     max-width: 600px;
     min-height: 600px;
@@ -30,4 +29,30 @@ nav{
 input[type= "password"]{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+#Skyscraper-ads{   
+ margin-top: 100px;
+ padding: 0px 100px;
+ height: 85vh;
+}
+.squarebox2 {
+    max-width: 800px;
+    min-width: 700px;
+    min-height: 500px;
+    max-height: 620px;
+    border: 1px solid black;
+    background: rgb(117, 233, 231);
+   
+    
+}
+
+.even-columns{
+    display: flex;
+}
+
+
+#Services{
+    border: 10px solid red;
+    margin-top: 100px;
 }
