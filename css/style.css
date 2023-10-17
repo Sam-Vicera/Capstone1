@@ -13,8 +13,8 @@ nav{
     max-width: 600px;
     min-height: 600px;
     border: 1px solid black;
-    background: rgb(117, 233, 231);
-    margin-top: 10px;
+    background-color: #712b2b;
+    margin-top: 85px;
     margin-bottom: 10px;
     
 }
@@ -36,23 +36,42 @@ input[type= "password"]{
  padding: 0px 100px;
  height: 85vh;
 }
+
+#footerText{
+    color: white;
+}
 .squarebox2 {
     max-width: 800px;
     min-width: 700px;
     min-height: 500px;
     max-height: 620px;
     border: 1px solid black;
-    background: rgb(117, 233, 231);
+    background-color: #712b2b;
    
     
 }
-
-.even-columns{
-    display: flex;
+#threerows{
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+   margin-top: 100px;
+   margin-left: 100px;
+   
+ 
+   
+}
+#servicesBackground{
+    background-image: url(../images/BackgroundImg2.jpeg)
 }
 
+#threerows h1 {
+    color: white;
+}
 
-#Services{
-    border: 10px solid red;
-    margin-top: 100px;
+.card-header{
+    font-size: large;
+    text-decoration: underline;
+}
+.card-body{
+    min-height: 250px;
 }
